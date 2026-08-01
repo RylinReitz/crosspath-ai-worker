@@ -9,6 +9,7 @@ from typing import Any
 import requests
 import runpod
 
+
 OLLAMA_BASE_URL = "http://127.0.0.1:11434"
 GENERATION_MODEL = os.getenv(
     "OLLAMA_MODEL",
